@@ -1,3 +1,3 @@
-# nba-money-line
+# nba-player-points
 
-Predict the money line and outcome of NBA games using regression and player stats.
+Predict an NBA player's stats for a current game using a regression-based approach. 
