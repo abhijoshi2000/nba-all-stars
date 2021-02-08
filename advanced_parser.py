@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 # Advanced Stats Parser
 URL = 'https://www.basketball-reference.com/players/e/embiijo01/gamelog-advanced/2021/'
 soup = BeautifulSoup(urlopen(URL), "html.parser")
-<<<<<<< HEAD
 data = [{}]
 
 stats = ["game_season","ts_pct", "efg_pct", "orb_pct", "drb_pct", "trb_pct", "ast_pct", "stl_pct", "blk_pct", "tov_pct", "usg_pct", "off_rtg", "def_rtg", "game_score", "bpm"]
@@ -52,8 +51,3 @@ for data_pt in data:
     print(data_pt)
     print()
     name+=1
-=======
-for elem in soup.findAll("table", {"id":"pgl_advanced"}):
-    print(str(elem))
-data = []
->>>>>>> 627fe2b99086d45ddcfb38f3ba2738f5487ad242
