@@ -1,3 +1,3 @@
-# nba-player-stats
+# nba-all-stars
 
-Predict an NBA player's stats for a current game using a regression-based approach. 
+Predict the upcoming NBA All Stars based on player stat data.
