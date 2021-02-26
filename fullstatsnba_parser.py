@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 import pickle
 import time
 
-START_YEAR, END_YEAR = 1996, 2020
+START_YEAR, END_YEAR = 1996, 2021
 
 # list of DataFrames for historical data, one for each year
 df_train_master = []
@@ -119,7 +119,7 @@ def was_AS_last_year(row):
 
 
 # initialize the chromedriver
-d = webdriver.Chrome('./chromedriver')
+d = webdriver.Chrome('./chromedriver.exe')
 
 # crude time delay to wait before attempting to scrape tabular data after XML document has loaded
 TIME_DELAY_TEAMS = 3
