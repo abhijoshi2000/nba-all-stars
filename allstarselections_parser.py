@@ -5,6 +5,7 @@ import pickle
 import requests
 from unidecode import unidecode
 
+# Links: https://towardsdatascience.com/using-machine-learning-to-predict-nba-all-stars-part-1-data-collection-9fb94d386530
 # this dictionary will map players to a set containing all the years in which they were
 # selected for an all-star game, either initially or as a replacement
 all_star_appearances = defaultdict(set)
